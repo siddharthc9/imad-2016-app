@@ -19,4 +19,9 @@ body {
 .img-medium {
     height: 200px;
 }
-
+  .wrapper{
+        width=800px;
+        margin=0px auto;
+        color:blue;
+        border:2px groove ;
+    }
