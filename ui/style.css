@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    margin-top: 75px;
+    margin:0px auto;
 }
 
 .center {
@@ -21,6 +21,7 @@ body {
   .wrapper{
         width=800px;
         margin=0px auto;
+        padding:0px;
         color:blue;
         border:2px groove ;
     }
