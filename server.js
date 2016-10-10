@@ -5,7 +5,7 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var articleOne={
+var articleOne = {
     title: 'Article-one | siddh',
     heading:'Article-one',
     date:'oct 6, 2016',
@@ -20,9 +20,8 @@ var articleOne={
     <p>
         this is content of the first page         this is content of the first page        this is content of the first page
                 this is content of the first page        this is content of the first page        this is content of the first page
-    </p>
-   `
-}
+    </p>`
+   };
 function createTemplete (data){
  var title=data.title;
  var date=data.date;
@@ -39,7 +38,7 @@ var htmlTemplet=`<html>
 <body>
     <div class="wrapper">
 <div>
-    <a href="/">home</a>
+    <a href="/">home</a> 
 </div>    
 <hr/>
 <h2>${heading}
@@ -48,7 +47,7 @@ var htmlTemplet=`<html>
     ${date}
 </div>
 <div>
- ${content}
+ ${content} 
 </div>
 </div>
 </body>
