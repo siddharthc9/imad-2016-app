@@ -29,7 +29,7 @@ function createTemplete (data){
  var content=data.content;
  
  
-var htmlTemplet=`<html>
+var htmlTemplate=`<html>
 <head>
 <title>${title}</title>
 <meta name="viewport" content="width=device-width, initial-sacle=1">
@@ -53,14 +53,14 @@ var htmlTemplet=`<html>
 </body>
 </html>
 `;
-return htmlTemplete;
+return htmlTemplate;
 } 
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 app.get('/article-one', function(req, res){
-  res.send(createTemplete(articleOne));
+  res.send(createTemplate(articleOne));
 });
 app.get('/article-two', function(req, res){
   res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
