@@ -22,7 +22,7 @@ var articleOne = {
                 this is content of the first page        this is content of the first page        this is content of the first page
     </p>`
    };
-function createTemplete (data){
+function createTemplate (data){
  var title=data.title;
  var date=data.date;
  var heading=data.heading;
