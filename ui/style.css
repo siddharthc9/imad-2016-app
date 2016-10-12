@@ -19,8 +19,8 @@ body {
     height: 200px;
 }
   .wrapper{
-        max-width=800px;
-        margin=0 auto;
+        width:800px ;
+        margin:0px auto ;
         color:blue;
-        border:2px groove 
+        border:2px groove ;
     }
